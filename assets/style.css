@@ -60,10 +60,18 @@ h2 {
 .active {
     border-bottom: 1px solid #777777;
 }
-
+/* adding the right size for the presentation imagen */
 #libella-img {
     height: 600px;
-    width: 300%;
-    background: url("/img/picture0.jpg");
+    width: 100%;
+    background-size: 400%;
+    background: url("/img/picture0.jpg") no-repeat;
 
 }
+/*scaling the imagen in scaled up size and creating a space on the header with the overflow: hidden */
+#libella-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
