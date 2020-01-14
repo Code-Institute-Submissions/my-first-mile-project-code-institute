@@ -60,18 +60,32 @@ h2 {
 .active {
     border-bottom: 1px solid #777777;
 }
+
 /* adding the right size for the presentation imagen */
 #libella-img {
     height: 600px;
     width: 100%;
-    background-size: 400%;
     background: url("/img/picture0.jpg") no-repeat;
-
+    /*adding the zoom for the imagen*/
+    animation-name: libella-zoom;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
 }
-/*scaling the imagen in scaled up size and creating a space on the header with the overflow: hidden */
-#libella-outer{
+
+/* creating a space on the header with the overflow: hidden */
+#libella-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
 }
 
+/*adding  keyframes with scale for later adding animation on #libella-img */
+@keyframes libella-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
