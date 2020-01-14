@@ -5,6 +5,7 @@
     padding: 0;
     border: 0;
 }
+
 /* the whole structure font and color*/
 body {
     font-family: Gugi;
@@ -18,12 +19,14 @@ h2 {
     letter-spacing: 4px;
     color: #555555;
 }
+
 /* increasing the size of the logo and moving it to the left*/
 #logo {
     float: left;
     font-size: 280%;
 
 }
+
 /* Removing bullets points and creating space to the menu*/
 #menu {
     font-size: 110%;
@@ -32,21 +35,28 @@ h2 {
 }
 
 /* Setting the menu in visual balance with the logo together with the design choice of 75px but there are other sizes like 150px, 300px, 600px and 900px*/
-#logo, #menu{
+#logo,
+#menu {
     line-height: 75px;
 }
+
 /* Setting the  menu context to right */
 #menu li {
     float: right;
     margin-right: 30px;
 }
+
 /* styling the menu with colors. */
-#menu a{
+#menu a {
     text-decoration: none;
     color: inherit;
 }
-/* adding a pseudo class when hovering with the mouse to create animation and color and change the state of the html element*/
-#menu a:hover{
-border-bottom: 1px solid #319b27;
 
+/* adding a pseudo class when hovering with the mouse to create animation and color and change the state of the html element*/
+#menu a:hover {
+    border-bottom: 1px solid #777777;
+}
+
+.active {
+    border-bottom: 1px solid #777777;
 }
