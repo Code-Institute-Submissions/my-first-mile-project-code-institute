@@ -116,3 +116,13 @@ h2 {
 
     position: absolute;
 }
+
+#about-libella{
+    height: 600px;
+}
+
+#left-about{
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
