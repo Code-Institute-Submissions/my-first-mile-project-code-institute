@@ -91,12 +91,14 @@ h2 {
         transform: scale(1.1);
     }
 }
+
 /* specify the color to overwrite the deaful color on the page*/
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #ffffff;
 }
 
-/* creating square color and text over the picture with font */ 
+/* creating square color and text over the picture with font */
 #cover-text {
     font-size: 130%;
     font-family: Roboto;
@@ -117,12 +119,33 @@ h2 {
     position: absolute;
 }
 
-#about-libella{
+/* creating the section 2 - whith structure*/
+#about-libella {
     height: 600px;
 }
 
-#left-about{
+/* adding the text on the left */
+#left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
+/* adding colors to the design structure when building structure*/
+    background-color: #000000;
+}
+
+/* adding the text on the right */
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+/* adding colors to the design structure when building structure*/
+    background-color: steelblue;
+}
+
+/*adding margin with auto for setting the center text in the middle of the 2nd section*/
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+/* adding colors to the design structure when building structure*/
+    background-color: tan;
 }
