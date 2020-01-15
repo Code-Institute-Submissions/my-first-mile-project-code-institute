@@ -209,3 +209,7 @@ hr {
    height: 100%;
    border-radius: 50%;
 }
+
+#projects{
+    background-image: url("/img/projects.jpg");
+}
