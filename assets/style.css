@@ -72,11 +72,13 @@ h2 {
     animation-fill-mode: forwards;
 }
 
-/* creating a space on the header with the overflow: hidden */
+/* creating a space on the header with the overflow: hidden also adding position for the container in the imagen*/
 #libella-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    /* adding the container on the picture*/
+    position: relative;
 }
 
 /*adding  keyframes with scale for later adding animation on #libella-img */
@@ -89,9 +91,8 @@ h2 {
         transform: scale(1.1);
     }
 }
-
-#cover-text,
-#cover-text h2 {
+/* specify the color to overwrite the deaful color on the page*/
+#cover-text, #cover-text h2 {
     color: #ffffff;
 }
 
@@ -107,9 +108,9 @@ h2 {
 
     padding-top: 40px;
     padding-left: 10px;
-
+    /* using rgb color to see the color throught the image*/
     background-color: rgb(241, 109, 107, .7);
-
+    /*position is fixed but stills uses a default behavior and is not stuck on the imagen yet. We do it on #libella-outer */
     bottom: 30px;
     right: 150px;
 
