@@ -149,6 +149,11 @@ h2 {
     /* adding colors to the design structure when building structure*/
 
 }
+hr {
+    border-top: 1px solid #777777;
+    width: 100%;
+    margin: 5px 0;
+}
 
 /*styling the left about heading to aline with the content and the rest of the section and creating space by using margin-bottom*/
 .left-about-heading {
@@ -161,11 +166,6 @@ h2 {
 
 /* providing some clearings around the rule so the context of become more structured*/
 
-hr {
-    border-top: 1px solid #777777;
-    width: 100%;
-    margin: 5px 0;
-}
 
 /* width 50% that is 50% of trhe parent div with a class right-header and 33% of the entired screen size and adding clear both blocking the content align vertically with div*/
 .right-about-heading {
