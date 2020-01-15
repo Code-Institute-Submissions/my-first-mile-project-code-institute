@@ -232,7 +232,20 @@ hr {
     text-align: center;
     margin: 8px;
 }
-
+/* adding color white to the context h2 for better visual in the project squares*/
 #projects h2{
     color: #fafafa
+}
+
+footer{
+    height: 150px;
+}
+/* adding center to the icons*/
+.social-networks{
+    text-align: center;
+    
+}
+/* settintg the icons inline */
+.social-networks li{
+    display:inline; 
 }
