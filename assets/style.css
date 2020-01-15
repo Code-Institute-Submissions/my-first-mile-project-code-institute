@@ -139,7 +139,7 @@ h2 {
     width: 33%;
     float: right;
 /* adding colors to the design structure when building structure*/
-    background-color: steelblue;
+   
 }
 
 /*adding margin with auto for setting the center text in the middle of the 2nd section*/
@@ -171,4 +171,5 @@ hr{
     float: left;
     line-height: 20px;
     clear: both;
+    margin-bottom: 50px;
 }
