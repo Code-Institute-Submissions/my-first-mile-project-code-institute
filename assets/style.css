@@ -159,6 +159,7 @@ h2 {
 }
 
 /* providing some clearings around the rule so the context of become more structured*/
+
 hr{
     border-top: 1px solid #777777;
     width: 100%;
