@@ -157,3 +157,10 @@ h2 {
     clear: both;
     margin-bottom: 50px;
 }
+
+/* providing some clearings around the rule so the context of become more structured*/
+hr{
+    border-top: 1px solid #777777;
+    width: 100%;
+    margin: 5px 0;
+}
