@@ -149,6 +149,7 @@ h2 {
     /* adding colors to the design structure when building structure*/
 
 }
+
 hr {
     border-top: 1px solid #777777;
     width: 100%;
@@ -203,13 +204,31 @@ hr {
     border-radius: 50%;
     margin: 0 auto;
 }
-/* adding imagen in the center and inline wiht border-radius*/
-#circle-logo-bg{
-   background: url("/img/maps-background.jpg") no-repeat center center;
-   height: 100%;
-   border-radius: 50%;
-}
 
-#projects{
-    background-image: url("/img/projects.jpg");
+/* adding imagen in the center and inline wiht border-radius*/
+#circle-logo-bg {
+    background: url("/img/maps-background.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+/* adding image for the background*/
+#projects {
+    background-image: url("/img/projects01.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+/* adding the projects squares in the right size to the section*/
+#projects div{
+    color: #fafafa;
+    background-color: rgba(0,0, 0, .6);
+    width: 29%;
+    height: 300px;
+    float: left ;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    margin: 8px;
+
+
 }
