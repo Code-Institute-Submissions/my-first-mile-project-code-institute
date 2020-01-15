@@ -165,3 +165,10 @@ hr{
     width: 100%;
     margin: 5px 0;
 }
+/* width 50% that is 50% of trhe parent div with a class right-header and 33% of the entired screen size and adding clear both blocking the content align vertically with div*/
+.right-about-heading{
+    width: 50%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+}
