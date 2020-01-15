@@ -189,9 +189,9 @@ hr {
     text-align: center;
     font-size: 280%;
 
-    /* adding container for  a center imagen with thin border */
+    
 }
-
+/* adding container for  a center imagen with thin border and adding border-radius to make a circle in the middel and aline the circle in the middle with margin*/
 #center-container {
     width: 300px;
     height: 300px;
@@ -199,4 +199,6 @@ hr {
     border-style: solid;
     border-color: #cccccc;
     border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
 }
