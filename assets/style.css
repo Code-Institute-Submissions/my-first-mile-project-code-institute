@@ -112,27 +112,22 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 300px;
-    height: 200px;
-
-    padding-top: 20px;
-    padding-left: 10px;
-    /* using rgb color to see the color throught the image*/
-    background-color: rgb(241, 109, 107, .7);
+    width: 540px;
+    height: 130px;
+   /* using rgb color to see the color throught the image*/
+    background-color: rgba(138, 130, 130, 0.692);
     /*position is fixed but stills uses a default behavior and is not stuck on the imagen yet. We do it on #libella-outer */
     bottom: 0px;
-    left: 150px;
-
+    left: 10px;
+    margin: 280px;
+    padding: 0;
     position: absolute;
 }
 
 #cover-text h4{
     text-align: ;
     font-size: 70%;
-    line-height: 30px;
-    height: 80px;
-    position: relative;
-    margin: 10px;
+    margin: 30px;
 
 }
 
