@@ -24,7 +24,7 @@ h2 {
 #logo {
     background: url("/img/libella_logo0.jpg") no-repeat;
     float: left;
-    height: 55px;
+    height: 60px;
     width: 18%;
     margin-top: 10px;
 }
@@ -219,7 +219,7 @@ hr {
     background-image: url("/img/projects01.jpg");
     background-size: cover;
     background-position: center;
-    width: 100%;
+    width: 110%;
     overflow: hidden;
 }
 
