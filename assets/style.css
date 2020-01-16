@@ -84,9 +84,7 @@ h2 {
     background-repeat: repeat;
 }
 
-#libella-outer h4{
-    
-}
+#libella-outer h4 {}
 
 /*adding  keyframes with scale for later adding animation on #libella-img */
 @keyframes libella-zoom {
@@ -114,7 +112,7 @@ h2 {
 
     width: 540px;
     height: 130px;
-   /* using rgb color to see the color throught the image*/
+    /* using rgb color to see the color throught the image*/
     background-color: rgba(138, 130, 130, 0.692);
     /*position is fixed but stills uses a default behavior and is not stuck on the imagen yet. We do it on #libella-outer */
     bottom: 0px;
@@ -124,7 +122,7 @@ h2 {
     position: absolute;
 }
 
-#cover-text h4{
+#cover-text h4 {
     text-align: ;
     font-size: 70%;
     margin: 30px;
@@ -254,6 +252,8 @@ footer {
     height: 150px;
 }
 
+}
+
 /* adding center to the icons*/
 .social-networks {
     text-align: center;
@@ -269,17 +269,56 @@ footer {
     font-size: 300%;
     margin: 5%;
     padding: 5%;
-    color: #777777;
+    color: #d19b05;
 }
 
+#projects h2{
+    margin: 10px 0;
+    text-align: center;
+    font-size: 200%;
+    color: #ffffff;
+    margin: 0%;
+    padding-right: 20%;
 
-/* Putting size for all devices Ipads and phones*/
 
-@media screen and (max-width: 139px){
-    #about-libella{
+}
+
+/* paus using bootstap*/
+/* Putting size for all devices Ipads 
+
+@media screen and(max-width: 139px) {
+    #about-libella {
         width: 65%;
         height: 1200px;
+        margin: 0 auto;
+    }
 
+    #left-about {
+        padding: 30px 0;
+        margin-top: 0;
+    }
 
+    #left-about-heading,
+    #right-about-heading {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+
+}
+
+/* Screen for mobiles
+@media screen (max-width:943px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 }
+  */
