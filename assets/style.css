@@ -249,3 +249,10 @@ footer{
 .social-networks li{
     display:inline; 
 }
+
+.social-networks i{
+    font-size: 300%;
+    margin: 5%;
+    padding: 5%;
+    color: #777777;
+}
