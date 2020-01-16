@@ -271,3 +271,15 @@ footer {
     padding: 5%;
     color: #777777;
 }
+
+
+/* Putting size for all devices Ipads and phones*/
+
+@media screen and (max-width: 139px){
+    #about-libella{
+        width: 65%;
+        height: 1200px;
+
+
+    }
+}
