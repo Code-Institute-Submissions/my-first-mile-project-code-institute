@@ -22,9 +22,11 @@ h2 {
 
 /* increasing the size of the logo and moving it to the left*/
 #logo {
+    background: url("/img/libella_logo0.jpg") no-repeat;
     float: left;
-    font-size: 280%;
-
+    height: 55px;
+    width: 18%;
+    margin-top: 10px;
 }
 
 /* Removing bullets points and creating space to the menu*/
@@ -232,25 +234,28 @@ hr {
     text-align: center;
     margin: 8px;
 }
+
 /* adding color white to the context h2 for better visual in the project squares*/
-#projects h2{
+#projects h2 {
     color: #fafafa
 }
 
-footer{
+footer {
     height: 150px;
 }
+
 /* adding center to the icons*/
-.social-networks{
+.social-networks {
     text-align: center;
-    
-}
-/* settintg the icons inline */
-.social-networks li{
-    display:inline; 
+
 }
 
-.social-networks i{
+/* settintg the icons inline */
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
     font-size: 300%;
     margin: 5%;
     padding: 5%;
