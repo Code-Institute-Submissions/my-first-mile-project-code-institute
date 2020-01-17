@@ -185,7 +185,7 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
-   }
+}
 
 .right-about-heading h2 {
     text-align: right;
@@ -276,6 +276,30 @@ footer {
     margin: 0%;
     padding-right: 20%;
 }
+/* conctact area */
+.contact-tittle{
+    margin: 100px;
+   color: black;
+   text-transform: uppercase;
+   transition: all 4s ease-in-out;
+}
+
+.contact-tittle h1{
+    font-size: 32px;
+    line-height: 10px;
+    }
+
+    .contact-tittle h2{
+        font-size: 16px;
+        
+    }
+/* padding: 0;
+    text-align: center;
+    background: linear-gradient(rgba(138, 130, 130, 0.692),rgba(0,0, 50,0.5)), url(/img/contact_pic.jpg);
+    background-size: cover;
+    background-position: center;*/
+
+
 
 /* paus using bootstap*/
 /* Putting size for all devices Ipads 
