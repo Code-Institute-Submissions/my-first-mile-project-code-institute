@@ -318,6 +318,11 @@ footer {
     hr {
        display: none; 
     }
+
+   /* Contact */
+
+
+
     /* mobile responsive*/
     @media screen and (max-with:943px) {
     #menu{
