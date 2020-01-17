@@ -123,7 +123,7 @@ h2 {
 }
 
 #cover-text h4 {
-    text-align: ;
+    text-align: 0;
     font-size: 70%;
     margin: 30px;
 
@@ -185,7 +185,7 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
-}
+   }
 
 .right-about-heading h2 {
     text-align: right;
@@ -199,8 +199,6 @@ hr {
     margin: 20px 0;
     text-align: center;
     font-size: 280%;
-
-
 }
 
 /* adding container for  a center imagen with thin border and adding border-radius to make a circle in the middel and aline the circle in the middle with margin*/
@@ -223,7 +221,7 @@ hr {
 }
 
 /* adding image for the background*/
-#projects {
+#projects1 {
     background-image: url("/img/projects01.jpg");
     background-size: cover;
     background-position: center;
@@ -232,7 +230,7 @@ hr {
 }
 
 /* adding the projects squares in the right size to the section*/
-#projects div {
+#projects1 div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
     width: 29%;
@@ -250,8 +248,6 @@ hr {
 
 footer {
     height: 150px;
-}
-
 }
 
 /* adding center to the icons*/
@@ -272,15 +268,13 @@ footer {
     color: #d19b05;
 }
 
-#projects h2{
+#projects h2 {
     margin: 10px 0;
     text-align: center;
     font-size: 200%;
     color: #ffffff;
     margin: 0%;
     padding-right: 20%;
-
-
 }
 
 /* paus using bootstap*/
