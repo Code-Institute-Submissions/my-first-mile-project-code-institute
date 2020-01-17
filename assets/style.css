@@ -288,6 +288,7 @@ footer {
     transition: all 4s ease-in-out;
     bottom: 0px;
     padding: 0;
+    position: center;
      
 }
 
@@ -304,6 +305,7 @@ footer {
 form {
     margin-top: 50px;
     transition: all 4s ease-in-out;
+    
 }
 
 .form-control {
@@ -314,7 +316,8 @@ form {
     border-bottom: 1px solid gray;
     color: rgb(3, 3, 3);
     font-size: 18px;
-    margin-bottom: 16px;
+    margin-bottom: 19px;
+    
 }
 
 form .submit {
@@ -342,7 +345,7 @@ form .submit:hover{
 
 
 /* paus using bootstap*/
-/* Putting size for all devices Ipads 
+/* Putting size for all devices Ipads */
 
 @media screen and(max-width: 139px) {
     #about-libella {
@@ -369,7 +372,7 @@ form .submit:hover{
 
 }
 
-/* Screen for mobiles
+/* Screen for mobiles */
 @media screen (max-width:943px) {
     #menu {
         clear: left;
@@ -379,4 +382,3 @@ form .submit:hover{
         line-height: 25px;
     }
 }
-  */
