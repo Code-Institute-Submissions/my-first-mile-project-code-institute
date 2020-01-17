@@ -6,11 +6,11 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>Libella Land Surveying</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/6fc3836bcc.js" crossorigin="anonymous"></script>
     <link href="assets/style.css" rel="stylesheet" type="text/css">
-    </head>
+</head>
 
 <body>
 
@@ -26,7 +26,7 @@
         <nav>
             <ul id="menu">
                 <li class="nav-item">
-                    <a class="nav-link" href="#social-networks">Contact</a>
+                    <a class="nav-link" href="#contacting">Contact</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#projects">Projects</a>
@@ -102,6 +102,21 @@
         </div>
 
     </section>
+    <!-- testing out bootstrap-->
+    <section class="content-boxes">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col boxOne boxOne_style text-center">testing1</div>
+                <div class="col boxTwo boxOne_style">testing2</div>
+                <div class="col boxThree boxThree box_style">testing3</div>
+                
+            </div>
+        </div>
+
+    </section>
+
+
+
     <!-- Projects context information wiht a slider where you can see all the projects interacting using bootstrap-->
     <!-- establishing and id on the section to add an imagen background to the entired section.-->
     <section id="projects1">
@@ -179,25 +194,23 @@
         </div>
     </section>
     <!--  Contact information to reach the company by email. -->
-   
-    <div class="contact-tittle">
+
+    <div id="contacting" class="contact-tittle">
         <h1>Contact Us</h1><br>
         <h2> We are here to server you</h2>
-    <div class="contact-form">
+        <div class="contact-form">
 
-        <form id="contact-form" method="post" action="">
-        <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+            <form id="contact-form" method="post" action="">
+                <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
 
-        <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+                <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
 
-        <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+                <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
 
-        <input type="submit" class="form-control submit" value="SEND MESSAGE" >
-        </form>
+                <input type="submit" class="form-control submit" value="SEND MESSAGE">
+            </form>
 
-
-    </div>
-    
+        </div>
     </div>
 
     <!-- adding Social media logos and logg in to copyright to the footer-->
